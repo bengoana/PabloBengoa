@@ -79,10 +79,10 @@ body, html {
   <p class="w3-center w3-large">I am a videogame programmer specialized in graphics and animations</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-half">
-      <p>I am a spanish developer who just finished an HND in computing at ESAT in Valencia.<br>
+      <p>I am a Spanish developer who just finished an HND in computing at ESAT in Valencia.<br>
       During my studies I became specially interested in graphics computing and the subsystems that run any software.
-      This is why on almost every project I've worked on systems rather than design or gameplay. <br><br> I plan to continue my
-      studies at Coventry University in the UK. <br> <br>
+      This is why on almost every project I've worked on systems rather than design or gameplay. <br><br> 
+      I expect to finish my bachelors in Games Technology at Coventry University <br> <br>
       Apart from work I am an open-minded person that enjoys travelling a lot. I have been lucky enough to be raised as a 
     bilingual and I have lived in France and the United States for a year each. I love exploring new places and learning new
     skills.  </p>
@@ -144,6 +144,14 @@ body, html {
      <img src="Data/KGB_Engine.PNG" style="width:100%" onclick="document.getElementById('modal03').style.display='block'" class="w3-hover-opacity" alt="OpenGL-Vulkan Graphics Engine">
      <h5 class="w3-center">OpenGL-Vulkan Graphics Engine</h5>
     </div>
+    <div class="w3-half">
+     <img src="Data/terrain.PNG" style="width:100%" onclick="document.getElementById('modal04').style.display='block'" class="w3-hover-opacity" alt="C++ terrain generator">
+     <h5 class="w3-center">OpenGL Terrain generator with perlin noise</h5>
+    </div>
+    <div class="w3-half">
+     <img src="Data/raytracer.PNG" style="width:100%" onclick="document.getElementById('modal05').style.display='block'" class="w3-hover-opacity" alt="Raytracer">
+     <h5 class="w3-center">OpenGL Terrain generator with perlin noise</h5>
+    </div>
 </div>
 
 <!-- Modal for full size images on click-->
@@ -159,7 +167,8 @@ body, html {
   <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">&times;</span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
     <iframe width="80%" height="256" src="https://www.youtube.com/embed/q6_38wpsyZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>First Person Shooter roguelike with a procedurally generated level on Unreal Engine 4</p>
+    <h4>First Person Shooter roguelike with a procedurally generated level on Unreal Engine 4</h4>
+    <h4>The project is available on steam for free <a href="https://store.steampowered.com/app/1440470/Synthetic_Hazard/">here</a></h4>
   </div>
 </div>
 
@@ -167,10 +176,27 @@ body, html {
   <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">&times;</span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
     <iframe width="80%" height="256" src="https://www.youtube.com/embed/MsOC8ntXVqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Graphics Engine with OpenGL and Vulkan backends, programmed from scratch in C++</p>
+    <h4>Graphics Engine with OpenGL and Vulkan backends, programmed from scratch in C++</h4>
   </div>
 </div>
 
+<div id="modal04" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img src="Data/terrain.PNG" style="width:100%" alt="C++ terrain generator">
+    <h4>Terrain generator that uses perlin noise to create realistic mountains.</h4>
+    <h4>Project available on github <a href="https://github.com/bengoana/TerrainGenerator">here</a> </h4>
+  </div>
+</div>
+
+<div id="modal05" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img src="Data/raytracer.PNG" style="width:100%" alt="Raytracer">
+    <h4>CPU raytracer created in c++ and optimised with aabbs and threading</h4>
+    <h4>Project available on github <a href="https://github.com/bengoana/CPURaytracer">here</a> </h4>
+  </div>
+</div>
 
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
